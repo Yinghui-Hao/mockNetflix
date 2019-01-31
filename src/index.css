@@ -5,7 +5,7 @@ body {
   color: white;
 }
 .main {
-  margin: 20px;
+  margin: 50px 100px;
 }
 h3 {
   display: block;
@@ -32,7 +32,15 @@ h3 {
   visibility: visible;
 }
 
-button:hover{
-    background: lightblue;
-    border-radius: 3px;
+button:hover {
+  background: lightblue;
+  border-radius: 3px;
+}
+
+.logo {
+  width: 200px;
+}
+
+h3{
+  margin-top: 20px;
 }
