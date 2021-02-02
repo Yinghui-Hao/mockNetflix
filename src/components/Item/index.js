@@ -16,10 +16,10 @@ class Item extends Component {
               Add
             </button>
           ) : (
-            <button className="block-btn-add" onClick={() => removeItem(data)}>
-              Remove
+              <button className="block-btn-add" onClick={() => removeItem(data)}>
+                Remove
             </button>
-          )}
+            )}
         </div>
       </div>
     );
@@ -28,8 +28,8 @@ class Item extends Component {
 
 const mapStateToProps = state => {
   return {
-    list: state.myList,
-    recommendations: state.recommendations
+    // list: state.myList,
+    // recommendations: state.recommendations
   };
 };
 const mapDispatchToProps = dispatch => {

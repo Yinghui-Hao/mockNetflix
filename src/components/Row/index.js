@@ -4,10 +4,10 @@ import Item from "../Item";
 
 class Row extends Component {
   render() {
-    const { type } = this.props;
+    const { type, list, recommendations } = this.props;
     const data =
-      type === "My List" ? this.props.list : this.props.recommendations;
-      
+      type === "My List" ? list : recommendations;
+
     return (
       <div className="list">
         <h3 className="header">{type}</h3>
